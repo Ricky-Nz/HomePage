@@ -10,7 +10,7 @@ module.exports = {
 		'./src/index'
 	],
 	output: {
-		path: path.join(__dirname, 'server', 'client'),    //Path of output file
+		path: path.join(__dirname, 'client'),    //Path of output file
 		filename: 'bundle.js'
 	},
 	plugins: [

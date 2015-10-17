@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/Ricky-Nz/HomePage#readme",
   "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
     "react": "^0.14.0",
     "react-addons-css-transition-group": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-motion": "^0.3.1"
+    "react-motion": "^0.3.1",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
