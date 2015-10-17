@@ -123,7 +123,7 @@ const HomePage = props => {
 				</div>
 				<div className='col-sm-4 col-md-3 ho-content horizontalCenter'>
 					<div>
-						<p>Ruiqi Li</p>
+						<h3>Ruiqi Li</h3>
 						<p>Contact: ruiqi.sg@gmail.com</p>
 					</div>
 				</div>
