@@ -36,19 +36,29 @@ const Career = props => {
 
 const HomePage = props => {
 	const careers = [
-		{
-			company: 'Wondershare',
-			website: 'http://www.wondershare.com/',
-			location: 'Shenzhen, China',
-			title: 'Wondershare Software',
-			position: 'Mobile Engineer',
-			duration: '2010',
-			detail: <p>In 2010 I graduated from <a href='http://www.csc.edu.cn/studyinchina/universityabouten.aspx?collegeId=310' target='_blank'>Xi'an University of Posts and Telecommunications</a> with bachelor of engineering and
-					start my career at Wondershare. during that time, as member of a small android developer team, we developed and released three apps to the former Android Market,
-					one world timer, one simple audio player and one <a href='http://bbs.gfan.com/android-698614-1-1.html' target='_blank'>social app</a> based
-					on <a href='https://en.wikipedia.org/wiki/Sina_Weibo' target='_blank'>Sina Weibo</a> public APIs.
-					</p>,
-			skills: ['Android']
+		 {
+			company: 'Alibaba',
+			website: 'http://www.alibaba.com/',
+			location: 'Singapore',
+			title: 'Alibaba',
+			position: 'Senior Mobile Engineer',
+			duration: '2014 ~ Now',
+			detail: <div>
+						<p>In 2014 My wife and I moved to Singapore and started our new life in this beautiful tiny country.
+							I joined Alibaba Singapore to continue my developer career.
+						</p>
+						<p>
+							As a member of Alipay department, my main job is working on the Android version of our <a href='https://play.google.com/store/apps/details?id=com.eg.android.AlipayGphone&hl=en' target='_blank'>Alipay Mobile Wallet</a>.
+							Adding new features, solving bugs, improving performance and user experience etc.
+						</p>
+						<p>
+							One of the greatest things of working in Alibaba is you can try everything you want if its
+							good for the team. So as a technique geek which I hope I can be, I tried a lots of in company project with
+							technique including React, React Native, Angular, Polymer, Node, Loopback, etc. One of the project is a <a href='http://granny.io' target='_blank'>mobile automation test platform</a> which
+							I built using WebDriver, Appium, React, Redux, Bootstrap, Loopback and MongoDB.
+						</p>
+					</div>,
+			skills: ['Android', 'React', 'NodeJs', 'Strongloop', 'MongoDB', 'AngularJs', 'GCP', 'AWS']
 		}, {
 			company: 'Baidu',
 			website: 'http://www.baidu.com/',
@@ -77,28 +87,18 @@ const HomePage = props => {
 			),
 			skills: ['Android', 'AndroidSource', 'Javascript', 'HTML', 'CSS']
 		}, {
-			company: 'Alibaba',
-			website: 'http://www.alibaba.com/',
-			location: 'Singapore',
-			title: 'Alibaba',
-			position: 'Senior Mobile Engineer',
-			duration: '2014 ~ Now',
-			detail: <div>
-						<p>In 2014 My wife and I moved to Singapore and started our new life in this beautiful tiny country.
-							I joined Alibaba Singapore to continue my developer career.
-						</p>
-						<p>
-							As a member of Alipay department, my main job is working on the Android version of our <a href='https://play.google.com/store/apps/details?id=com.eg.android.AlipayGphone&hl=en' target='_blank'>Alipay Mobile Wallet</a>.
-							Adding new features, solving bugs, improving performance and user experience etc.
-						</p>
-						<p>
-							One of the greatest things of working in Alibaba is you can try everything you want if its
-							good for the team. So as a technique geek which I hope I can be, I tried a lots of in company project with
-							technique including React, React Native, Angular, Polymer, Node, Loopback, etc. One of the project is a <a href='http://granny.io' target='_blank'>mobile automation test platform</a> which
-							I built using WebDriver, Appium, React, Redux, Bootstrap, Loopback and MongoDB.
-						</p>
-					</div>,
-			skills: ['Android', 'React', 'NodeJs', 'Strongloop', 'MongoDB', 'AngularJs', 'GCP', 'AWS']
+			company: 'Wondershare',
+			website: 'http://www.wondershare.com/',
+			location: 'Shenzhen, China',
+			title: 'Wondershare Software',
+			position: 'Mobile Engineer',
+			duration: '2010',
+			detail: <p>In 2010 I graduated from <a href='http://www.csc.edu.cn/studyinchina/universityabouten.aspx?collegeId=310' target='_blank'>Xi'an University of Posts and Telecommunications</a> with bachelor of engineering and
+					start my career at Wondershare. during that time, as member of a small android developer team, we developed and released three apps to the former Android Market,
+					one world timer, one simple audio player and one <a href='http://bbs.gfan.com/android-698614-1-1.html' target='_blank'>social app</a> based
+					on <a href='https://en.wikipedia.org/wiki/Sina_Weibo' target='_blank'>Sina Weibo</a> public APIs.
+					</p>,
+			skills: ['Android']
 		}
 	];
 
